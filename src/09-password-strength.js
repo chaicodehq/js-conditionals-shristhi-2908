@@ -26,5 +26,8 @@
  * @returns {string} "weak", "medium", "strong", or "very strong"
  */
 export function checkPasswordStrength(password) {
-  // Your code here
+  
+if(password=" ") return "weak";
+
+
 }
